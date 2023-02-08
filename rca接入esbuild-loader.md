@@ -1,7 +1,3 @@
----
-theme: juejin
-highlight: arduino-light
----
 # 前言
 
 我在公司实习的时候参与的一个 react + typescript 的项目，这个项目在自动化部署测试环境时很慢，每次都要 10 分钟左右。当时我抱着研究研究的心态，安装了 speed-measure-webpack-plugin 插件。测试发现 TerserPlugin、babel-loader 这哥俩耗时贼长，项目打包耗时6分钟左右。
